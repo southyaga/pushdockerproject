@@ -1,2 +1,1 @@
-FROM nginx
-ADD . /usr/share/nginx/html
+FROM alpine:3.13.5
