@@ -3,7 +3,7 @@ pipeline{
     agent {label 'linux'}
 
     environment {
-        DOCKERHUB_CREDENTIALS=credentials('docker')
+        DOCKERHUB_CREDENTIALS=credentials('southyaga-docker')
     }
 
     stages {
